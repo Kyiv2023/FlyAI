@@ -33,11 +33,23 @@
 
 ### [OBSfucatorium](https://github.com/Kyiv2023/FlyAI/tree/main/OBSfucatorium)
 
+Інструмент для управління віддаленим docker-контейнером з інстанцією CesiumWorld та його стрімінгом через OBS до LikeAFly:
+
+Цей інструмент дозволяє:
+
+- Запускати та зупиняти docker-контейнер з CesiumWorld
+- Керувати параметрами та налаштуваннями CesiumWorld
+- Передавати стрім з CesiumWorld через OBS до LikeAFly
+
+
 https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
 
 https://github.com/Kyiv2023/FlyAI/assets/135607224/656fa92b-ad95-47fe-bfff-30eef73c70df
 
-Моделюється в Unreal з використанням Airsim MS гілки Colosseum, яка працює в контейнері Docker на Linux-машині і показує сцен
+Моделюється в /Unreal з використанням Airsim MS/Colosseum, яка працює в контейнері Docker на Linux-машині і показує сцену середовища літа/зими/весни, яка включає людей/транспортні засоби двох країн. За допомогою скрипту Python, після доменно-специфічного дії (наприклад, spawn.vehicle(gps координати)), на вказаній точці з'являється об'єкт, а дрон, керований з Android-додатку, після подорожі до об'єкту - за допомогою скрипту Python - фотографує об'єкт. Зображення потім завантажуються в Google Cloud Storage, де вони обробляються: мітки, записані в Airsim MS гілці Colosseum/фотографії, зроблені Android-додатком, піддаються машинному навчанню (Colosseum за допомогою API-виклику перемикає режим зображення: звичайне відображення Unity/Unreal або термальний/глибинний/сегментований вид, тому Android-додаток робить 3 фотографії, перш ніж відправляти команду "drop" до Colosseum). Отримані дані навчаються машинним методам на позиціях, зареєстрованих в Colosseum.
+
+
+
 
 
 
@@ -71,14 +83,7 @@ An enviroment for simulating world: Unreal (alternatively Unity) application wit
 
 ### [OBSfucatorium](https://github.com/Kyiv2023/FlyAI/tree/main/OBSfucatorium)
 
-
-
-https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
-
-
-
-https://github.com/Kyiv2023/FlyAI/assets/135607224/656fa92b-ad95-47fe-bfff-30eef73c70df
-
+a tool for managing a remote dockerized CesiumWorld instance and its streaming via OBS to the LikeAFly
 
 
 Simulated in Unity/Unreal with Airsim MS fork Colosseum running in docker container on linux machine demonstrates a scene of the summer/winter/spring environment that includes people/vehicles of the two countries. per python script domain specific action (like spawn.vehicle(gps coordinate)) it spawns an object on given point, and drone, piloted from the Android application, after traveling to the object - via Python script - takes the photos of the object - in the Android application running in simulator. then it gets uploaded to the Google Cloud Storage, where it's being processed - a labels recorded in Airsim MS fork Colosseum/photos taken by Android app are machine learned (Colloseum per api call switches the image mode: regular Unity/Unreal rendering or thermal/depth/segmented vision, so Android app takes 3 photos before it sends "drop" command to Colloseum) are Machine Learned against the Colloseum-logged positions.
