@@ -1,19 +1,19 @@
-# FlyAI
+# [FlyAI](https://kyiv2023.github.io/FlyAI/)
 Платформа машинного навчання для розвитку дронової інтелектуальності: симулятор, додаток для управління на Android (сумісний з DJI Mavic), інструменти для збору та обробки наборів даних, фреймворк та веб-сайт для навчання моделей
 
 ## Pics
 
 
 
-[![Colosseum](http://img.youtube.com/vi/-WfTr1-OBGQ/0.jpg)](http://www.youtube.com/watch?v=-WfTr1-OBGQ "Colosseum") [*](https://microsoft.github.io/AirSim/)
-[![Cesium](http://img.youtube.com/vi/TbHCvAo-aGg/0.jpg)](http://www.youtube.com/watch?v=TbHCvAo-aGg "Cesium") [*](https://cesium.com/platform/cesium-for-unreal/)
+[![Colosseum](http://img.youtube.com/vi/-WfTr1-OBGQ/0.jpg)](http://www.youtube.com/watch?v=-WfTr1-OBGQ "Colosseum") [.](https://microsoft.github.io/AirSim/)
+[![Cesium](http://img.youtube.com/vi/TbHCvAo-aGg/0.jpg)](http://www.youtube.com/watch?v=TbHCvAo-aGg "Cesium") [.](https://cesium.com/platform/cesium-for-unreal/)
 
 https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
 
-![t72](https://cdn1.epicgames.com/ue/product/Screenshot/T72bGalleryA011920x1080-1920x1080-3e39ea4ebfe655e334b482fbb0bd173b.png?resize=1&w=400) [*](https://www.unrealengine.com/marketplace/en-US/product/tank-t72b-east)
-![iskander](https://cdn1.epicgames.com/ue/product/Screenshot/SRMBISKANDERGalleryA011920x1080-1920x1080-105f4aecb7ee1f1203a9f822403fdb1c.png?resize=1&w=400) [*](https://www.unrealengine.com/marketplace/en-US/product/srmb-iskander-east)
-![arty](https://cdn1.epicgames.com/ue/product/Screenshot/D30A01Gallery1920x1080-1920x1080-4b7f91881a6b86bc71fb95408f80285f.png?resize=1&w=400) [*](https://www.unrealengine.com/marketplace/en-US/product/artillery-d-30-122mm-east)
-![akatsiya](https://cdn1.epicgames.com/ue/product/Screenshot/AkatsiyaGallery01a1920x1080-1920x1080-7afc49b356f9a598eb8fb658b5316dfb.png?resize=1&w=400)  [*](https://www.unrealengine.com/marketplace/en-US/product/m-1973-152-mm-gun-akatsiya-spa-russia)
+![t72](https://cdn1.epicgames.com/ue/product/Screenshot/T72bGalleryA011920x1080-1920x1080-3e39ea4ebfe655e334b482fbb0bd173b.png?resize=1&w=400) [.](https://www.unrealengine.com/marketplace/en-US/product/tank-t72b-east)
+![iskander](https://cdn1.epicgames.com/ue/product/Screenshot/SRMBISKANDERGalleryA011920x1080-1920x1080-105f4aecb7ee1f1203a9f822403fdb1c.png?resize=1&w=400) [.](https://www.unrealengine.com/marketplace/en-US/product/srmb-iskander-east)
+![arty](https://cdn1.epicgames.com/ue/product/Screenshot/D30A01Gallery1920x1080-1920x1080-4b7f91881a6b86bc71fb95408f80285f.png?resize=1&w=400) [.](https://www.unrealengine.com/marketplace/en-US/product/artillery-d-30-122mm-east)
+![akatsiya](https://cdn1.epicgames.com/ue/product/Screenshot/AkatsiyaGallery01a1920x1080-1920x1080-7afc49b356f9a598eb8fb658b5316dfb.png?resize=1&w=400)  [.](https://www.unrealengine.com/marketplace/en-US/product/m-1973-152-mm-gun-akatsiya-spa-russia)
 
 
 ## Структура
