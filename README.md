@@ -3,6 +3,36 @@
 
 
 
+## Structure
+
+### [LikeAFly](https://github.com/Kyiv2023/FlyAI/tree/main/LikeAFly)
+
+Android ML powered drone control application
+
+ - DJI Mavic control
+ - Simulated **AirSim/Colosseum** drone control
+ - [Esri GIS](https://www.esri.com/) 3d/flat map
+ - telemetry/controls/image logging to cloud
+
+### [FlyDataTools](https://github.com/Kyiv2023/FlyAI/tree/main/FlyDataTools)
+
+Toolset for training a model that is capable of inferring by drone telemetry/drone imagery:
+
+ - Vehicle on imagery segmentation
+ - Observered vehicle GPS coordinate prediction
+ - Control sequence approach
+ - Drone GPS coordinate prediction
+
+
+### [CesiumWorld](https://github.com/Kyiv2023/FlyAI/tree/main/CesiumWorld)
+
+An enviroment for simulating world: Unreal (alternatively Unity) application with:
+  - [Cesium](https://cesium.com/) plugin provides realistic representation of the real world map
+  - [AirSim](https://microsoft.github.io/AirSim/) (should be replaced with [Colosseum](https://github.com/CodexLabsLLC/Colosseum)) provides API/tools for drone simulation
+  - [Vigilante](https://www.unrealengine.com/marketplace/en-US/profile/Vigilante) provides models of vehicles
+
+### [OBSfucatorium](https://github.com/Kyiv2023/FlyAI/tree/main/OBSfucatorium)
+
 
 
 https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
