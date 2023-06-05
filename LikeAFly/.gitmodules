@@ -1,0 +1,3 @@
+[submodule "airsim-jvm-api"]
+	path = airsim-jvm-api
+	url = git@github.com:darvin/airsim-jvm-api.git

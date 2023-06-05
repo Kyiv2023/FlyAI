@@ -1,0 +1,3 @@
+[submodule "LikeAFly/airsim-jvm-api"]
+	path = LikeAFly/airsim-jvm-api
+	url = git@github.com:Kyiv2023/airsim-jvm-api.git
