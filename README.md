@@ -3,6 +3,44 @@
 
 
 
+## Структура
+
+### [LikeAFly](https://github.com/Kyiv2023/FlyAI/tree/main/LikeAFly)
+
+Додаток для керування дроном на базі Android із підтримкою машинного навчання
+
+ - Керування дроном DJI Mavic
+ - Моделювання керування дроном **AirSim/Colosseum**
+ - [Esri GIS](https://www.esri.com/) тривимірна/плоска карта
+ - Телеметрія/керування/логування зображень у хмару
+
+### [FlyDataTools](https://github.com/Kyiv2023/FlyAI/tree/main/FlyDataTools)
+
+Набір інструментів для навчання моделі, здатної виводити висновки за телеметрією і зображеннями дрона:
+
+ - Сегментація транспортних засобів на зображеннях
+ - Прогнозування координат GPS спостережуваних транспортних засобів
+ - Підхід зі створенням послідовності керування
+ - Прогнозування координат GPS дрона
+
+
+### [CesiumWorld](https://github.com/Kyiv2023/FlyAI/tree/main/CesiumWorld)
+
+Середовище для моделювання світу: додаток Unreal з:
+  - Плагін [Cesium](https://cesium.com/), що забезпечує реалістичне відображення реальної карті світу
+  - [AirSim](https://microsoft.github.io/AirSim/) (повинен бути замінений на [Colosseum](https://github.com/CodexLabsLLC/Colosseum)), який надає API/інструменти для моделювання дрона
+  - Моделі транспортних засобів від [Vigilante](https://www.unrealengine.com/marketplace/en-US/profile/Vigilante)
+
+### [OBSfucatorium](https://github.com/Kyiv2023/FlyAI/tree/main/OBSfucatorium)
+
+https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
+
+https://github.com/Kyiv2023/FlyAI/assets/135607224/656fa92b-ad95-47fe-bfff-30eef73c70df
+
+Моделюється в Unreal з використанням Airsim MS гілки Colosseum, яка працює в контейнері Docker на Linux-машині і показує сцен
+
+
+
 ## Structure
 
 ### [LikeAFly](https://github.com/Kyiv2023/FlyAI/tree/main/LikeAFly)
