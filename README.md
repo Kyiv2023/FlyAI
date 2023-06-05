@@ -9,7 +9,10 @@
 [![Colosseum](http://img.youtube.com/vi/-WfTr1-OBGQ/0.jpg)](http://www.youtube.com/watch?v=-WfTr1-OBGQ "Colosseum") [.](https://microsoft.github.io/AirSim/)
 [![Cesium](http://img.youtube.com/vi/TbHCvAo-aGg/0.jpg)](http://www.youtube.com/watch?v=TbHCvAo-aGg "Cesium") [.](https://cesium.com/platform/cesium-for-unreal/)
 
-https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5
+
+<video src="https://github.com/Kyiv2023/FlyAI/assets/135607224/cada7d87-b65e-413a-b799-9592c829c3b5" controls="controls" style="max-width: 730px;">
+</video>
+
 
 ![t72](https://cdn1.epicgames.com/ue/product/Screenshot/T72bGalleryA011920x1080-1920x1080-3e39ea4ebfe655e334b482fbb0bd173b.png?resize=1&w=400) [.](https://www.unrealengine.com/marketplace/en-US/product/tank-t72b-east)
 ![iskander](https://cdn1.epicgames.com/ue/product/Screenshot/SRMBISKANDERGalleryA011920x1080-1920x1080-105f4aecb7ee1f1203a9f822403fdb1c.png?resize=1&w=400) [.](https://www.unrealengine.com/marketplace/en-US/product/srmb-iskander-east)
